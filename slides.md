@@ -2,10 +2,13 @@ title: Flyte: AI In Production
 use_katex: True
 class: title-slide
 
-# Flyte: AI in Production
+![:scale 40%](images/flyte.svg)
+
+# AI in Production
 
 .larger[Thomas J. Fan]<br>
 @thomasjpfan<br>
+
 <a href="https://www.github.com/thomasjpfan" target="_blank"><span class="fa-brands fa-github"></span></a>
 <a href="https://www.linkedin.com/in/thomasjpfan" target="_blank"><span class="fa-brands fa-linkedin"></span></a>
 <a href="https://www.twitter.com/thomasjpfan" target="_blank"><span class="fa-brands fa-twitter"></span></a>
@@ -14,18 +17,85 @@ This workshop on Github: github.com/thomasjpfan/odsc-east-2023-flyte</a>
 
 ---
 
-# Contents
+# Contents 📓
 
+.g.g-middle[
+.g-6[
 - Flyte Overview
+- Production-Ready
 - Developer Experience
 - Scale
-- Production-Ready
 - Use Cases
-  - Machine Learning Tracking
-  - Bioinformatics
-  - GPU Training
-- Appendix
-  - Metaflow
-  - Airflow
-  - Dagster
-  - Kubeflow
+]
+.g-6.g-center[
+![:scale 80%](images/flyte.svg)
+]
+]
+
+---
+
+.g.g-center.g-middle[
+.g-6[
+![:scale 80%](images/flyte.svg)
+]
+.g-6[
+![:scale 80%](images/linux-foundation.svg)
+]
+]
+
+---
+
+# Two Personas
+
+.g[
+.g-6[
+## Data or Research Scientist 👩‍🔬
+]
+.g-6[
+## Platform Engineer 👷‍♀️
+]
+]
+
+---
+
+class: chapter-slide
+
+# Production-Ready 🚀
+
+---
+
+class: chapter-slide
+
+# Developer Experience 💻
+
+---
+
+class: chapter-slide
+
+# Scale 🌎
+
+---
+
+# Use Cases
+
+???
+
+- Machine Learning Tracking
+- Bioinformatics
+- GPU Training
+
+---
+
+# Closing
+
+---
+
+class: chapter-slide
+
+# Appendix
+
+???
+- Metaflow
+- Airflow
+- Dagster
+- Kubeflow
