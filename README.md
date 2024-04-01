@@ -2,7 +2,7 @@
 
 *By Thomas J. Fan*
 
-[Link to slides](https://thomasjpfan.github.io/odsc-2023-east-flyte/)
+[Link to slides](https://thomasjpfan.github.io/odsc-2024-east-flyte/)
 
 Quick and sustainable iteration cycles from development to production are crucial to maximizing the impact of our AI and ML models. Flyte is a Linux Foundation open-source production-ready platform for AI, machine learning, and analytics workflows. For the ML practitioner and AI engineer, Flyte allows us to debug locally, execute remotely at scale, and deploy the same code into production. Flyte's Python library, flytekit, enables us to utilize Python's vast ecosystem of data science libraries in our workflows. For platform engineers, Flyte is built on Kubernetes and has multi-tenancy at its core, which is vital for sharing and managing resources effectively.
 
