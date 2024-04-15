@@ -22,10 +22,10 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 .g.g-middle[
 .g-6[
 - Flyte Overview
-- Production-Ready
-- Developer Experience
-- Scale
-- Use Cases
+    - Production-Ready
+    - Developer Experience
+    - Scale
+- Applications
 ]
 .g-6.g-center[
 ![:scale 80%](images/flyte.svg)
@@ -49,7 +49,7 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 
 .g[
 .g-6[
-## Data or Research Scientist 👩‍🔬
+## Data Scientist 👩‍🔬
 ]
 .g-6[
 ## Platform Engineer 👷‍♀️
@@ -60,7 +60,17 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 
 class: chapter-slide
 
-# Production-Ready 🚀
+# Scale 🌎
+
+???
+- Built on Kubernetes
+- Multi-tenancy
+- Compute
+    - Dynamic workflows
+    - Map Tasks
+    - Ray
+    - Dask
+    - Spark
 
 ---
 
@@ -68,21 +78,85 @@ class: chapter-slide
 
 # Developer Experience 💻
 
+???
+- Strict typing
+- Local and Remote execution
+- Any language
+- ImageSpec
+- Declaractive Infrasturture
+- Visualization
+
 ---
 
 class: chapter-slide
 
-# Scale 🌎
+# Production-Ready 🚀
+
+???
+- Versioned workflow
+- Data Lineage
+- Containers first
+- Launchplans (Scheduling)
+- Spot instances
+- Intra-task Checkpointing
 
 ---
 
-# Use Cases
+# Applications 💡
 
-???
+- Data Task
+    - Loading data
+        - BigQuery Agent
+        - Snowflake Agent
+        - SQL
+        - DuckDB
+    - Computation with data
+        - Python
+        - R
+        - Julia
+        - Scale:
+            - Dask
+            - Ray
+            - Spark
+        - Airflow Plugin
+        - Databricks Agent
+        - Data Validation/Quality
+            - Great expectations
+            - Pandera
+    - Report/Dashboard/Images
+    - Bioinformatices
+        - ShellTask
+        - Docker first
+        - TypeTransformers
+        - Union plugin
+- Machine learning
+    - Evaluate
+        - Predictive models: Test data
+        - Dashboard
+    - Save as object
+    - Human in the loop
+    - Deploy
+- AI Model
+    - Finetuning, RAG
+        - Pretrained model
+    - Recommendation
+        - Modalities
+    - GPU
+        - Selecting GPUs
+        - Intra-task checkpointing
+        - Spot instances
+        - Scaling
+            - PyTorch
+            - Tensorflow
+            - NVIDIA DGX Cloud
 
-- Machine Learning Tracking
-- Bioinformatics
-- GPU Training
+# Community 🌎
+
+- Pluggable
+    - Accerlated Datasets
+    - NVIDIA DGX Cloud with Agents
+
+- VSCode Plugin
 
 ---
 
