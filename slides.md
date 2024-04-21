@@ -785,3 +785,8 @@ def train_vscode(...) -> str:
 - Learn about **Union**: [union.ai/resources](union.ai/resources)
 ]
 ]
+
+<br>
+
+### Slides on Github: [github.com/thomasjpfan/odsc-east-2024-flyte](github.com/thomasjpfan/odsc-east-2024-flyte)
+### Connect with Me: [linkedin.com/in/thomasjpfan](https://www.linkedin.com/in/thomasjpfan)
