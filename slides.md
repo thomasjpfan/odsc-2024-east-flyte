@@ -755,6 +755,14 @@ def train_vscode(...) -> str:
 
 # Community 🌎
 
+.center[
+![:scale 85%](images/flyteconsole.jpg)
+]
+
+---
+
+# Community 🌎
+
 .g.g-middle[
 .g-8[
 - Join on **Slack**: [slack.flyte.org](slack.flyte.org)
