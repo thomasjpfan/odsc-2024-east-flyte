@@ -528,3 +528,9 @@ blockquote cite {
   -webkit-box-pack: justify;
   justify-content: space-between;
 }
+
+/* highlight */
+
+.hljs-github .hljs-meta {
+  color: #000;
+}

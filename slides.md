@@ -1,5 +1,5 @@
 title: Flyte: AI In Production
-use_katex: True
+use_katex: False
 class: title-slide
 
 ![:scale 40%](images/flyte.svg)
