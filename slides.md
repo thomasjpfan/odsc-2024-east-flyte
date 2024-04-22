@@ -567,6 +567,8 @@ approve_filter >> bowtie2_idx
 
 ---
 
+# Models Everywhere 🪄
+
 ![](images/llm-models.jpg)
 
 ---
@@ -596,7 +598,7 @@ approve_filter >> bowtie2_idx
 # GPU Support
 
 .g.g-middle[
-.g-8[
+.g-7[
 ```python
 from flytekit.extras.accelerators import A10G
 
@@ -609,7 +611,7 @@ def my_task() -> None:
 
 ```
 ]
-.g-4[
+.g-5[
 ![](images/nvidia.png)
 ]
 ]
@@ -619,7 +621,7 @@ def my_task() -> None:
 # Partition GPU
 
 .g.g-middle[
-.g-8[
+.g-7[
 ```python
 from flytekit.extras.accelerators import A100
 
@@ -631,7 +633,7 @@ def my_task() -> None:
     ...
 ```
 ]
-.g-4[
+.g-5[
 ![](images/nvidia-parition.png)
 ]
 ]
@@ -737,14 +739,14 @@ def train(finetuning_args: FinetuningArguments) -> str:
 # Community 🌎
 
 .g.g-middle[
-.g-6[
+.g-7[
 ```python
 @vscode
 def train_vscode(...) -> str:
     ...
 ```
 ]
-.g-6.g-center[
+.g-5.g-center[
 ![:scale 80%](images/vscode.png)
 ]
 ]
