@@ -484,6 +484,12 @@ def hyperparameter_optimization(Cs: list[]) -> dict[str, int]:
 
 ---
 
+class: chapter-slide
+
+# Bioinformatics 🧬
+
+---
+
 # Bioinformatics 🧬
 
 ![](images/bioinformatics.png)
@@ -561,9 +567,9 @@ approve_filter >> bowtie2_idx
 
 ---
 
-# LLM Workflow 🤖
+class: chapter-slide
 
-![](images/llm-workflow.png)
+# LLM Workflow 🤖
 
 ---
 
@@ -575,7 +581,7 @@ approve_filter >> bowtie2_idx
 
 # LLM Workflow 🤖
 
-![](images/llm-workflow.png)
+![:scale 120%](images/llm-workflow.png)
 
 ---
 
