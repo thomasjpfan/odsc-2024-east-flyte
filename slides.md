@@ -644,6 +644,12 @@ class: chapter-slide
 
 ---
 
+# LLM Workflow 🤖
+
+![](images/llm-workflow-train.png)
+
+---
+
 # GPU Support
 
 .g.g-middle[
