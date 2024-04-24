@@ -777,6 +777,32 @@ def my_task() -> None:
 
 ---
 
+# Extensions: Chat GPT Agents
+
+.g[
+.g-8[
+```python
+chatgpt_small_job = ChatGPTTask(
+    name="3.5-turbo",
+    chatgpt_config={
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.7,
+    },
+    ...
+)
+
+@workflow
+def my_chatgpt_job(message: str) -> str:
+    message = chatgpt_small_job(message=message)
+```
+]
+.g-4.g-center[
+![](images/openai.jpg)
+]
+]
+
+---
+
 # Custom Extensions: Agents
 
 .g.g-middle[
@@ -799,16 +825,16 @@ def train(finetuning_args: FinetuningArguments) -> str:
 # Community 🌎
 
 .g.g-middle[
-.g-7[
+.g-6[
 ```python
 @task
-@vscode
+*@vscode
 def train_vscode(...) -> str:
     ...
 ```
 ]
-.g-5.g-center[
-![:scale 80%](images/vscode.png)
+.g-6.g-center[
+![:scale 60%](images/vscode.png)
 ]
 ]
 
@@ -824,15 +850,12 @@ def train_vscode(...) -> str:
 
 # Community 🌎
 
-.g.g-middle[
-.g-8[
 - Learn about **Flyte**: [flyte.org](https://flyte.org)
 - Join on **Slack**: [slack.flyte.org](https://slack.flyte.org)
 - Join on **GitHub**: [github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
-]
-.g-4[
-![](images/flyte.svg)
-]
+
+.center[
+![:scale 75%](images/flyte-site.jpg)
 ]
 
 
@@ -855,14 +878,14 @@ def train_vscode(...) -> str:
 - Learn about **Flyte**: [flyte.org](https://flyte.org)
 - Join on **Slack**: [slack.flyte.org](https://slack.flyte.org)
 - Join on **GitHub**: [github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
-- Learn about **Union**: [union.ai](https://www.union.ai)
+- Learn about **Union.ai**: [union.ai](https://www.union.ai)
 ]
 ]
 
 <br>
 
 ### Slides on Github: [github.com/thomasjpfan/odsc-east-2024-flyte](https://github.com/thomasjpfan/odsc-east-2024-flyte)
-### Connect with Me: [linkedin.com/in/thomasjpfan](https://www.linkedin.com/in/thomasjpfan)
+### Find me @ [linkedin.com/in/thomasjpfan](https://www.linkedin.com/in/thomasjpfan)
 </textarea>
   <script src="./assets/remark.min.js"></script>
   <script>
