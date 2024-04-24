@@ -768,7 +768,7 @@ def my_task() -> None:
 
 # Extensions: Chat GPT Agents
 
-.g[
+.g.g-middle[
 .g-8[
 ```python
 chatgpt_small_job = ChatGPTTask(
@@ -822,8 +822,11 @@ def train_vscode(...) -> str:
     ...
 ```
 ]
-.g-6.g-center[
-![:scale 60%](images/vscode.png)
+.g-3.g-center[
+![:scale 100%](images/vscode.png)
+]
+.g-3.g-center[
+![:scale 60%](images/linkedin.png)
 ]
 ]
 
@@ -844,7 +847,7 @@ def train_vscode(...) -> str:
 - Join on **GitHub**: [github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
 
 .center[
-![:scale 75%](images/flyte-site.jpg)
+![:scale 70%](images/flyte-site.jpg)
 ]
 
 
