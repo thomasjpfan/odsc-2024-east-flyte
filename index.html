@@ -491,6 +491,10 @@ def evaluate_models(models: List[BaseEstimator]) -> List[float]:
 ```python
 from flytekit import map_task
 
+@task
+def train_model_with_parameter(...) -> tuple[str, int]:
+    ...
+
 @workflow
 def hyperparameter_optimization(Cs: list[]) -> dict[str, int]:
     results = (
@@ -527,6 +531,21 @@ class: chapter-slide
 .center[
 ![:scale 60%](images/data-persistence.jpg)
 ]
+
+---
+
+# Shell Task
+
+```
+hisat2_index = ShellTask(
+    name="hisat2-index",
+    script="""
+    mkdir {outputs.idx}
+    hisat2-build {inputs.ref} {outputs.idx}/hs2_idx
+    """,
+    metadata=TaskMetadata(retries=3, cache=True, cache_version="v3"),
+    requests=Resources(cpu="4", mem="10Gi"),
+```
 
 ---
 
@@ -568,6 +587,21 @@ class Reference(DataClassJSONMixin):
 def pb_deepvar(al: Alignment, ref: Reference) -> VCF:
     ...
 ```
+
+---
+
+# Visualizing
+
+```python
+multiqc_image_spec = ImageSpec(name="multiqc", packages=["multiqc"])
+
+@task(container_image=multiqc_image_spec, enable_deck=True)
+def render_multiqc(...) -> FlyteFile:
+```
+
+.center[
+![:scale 70%](images/multiqc.png)
+]
 
 ---
 
