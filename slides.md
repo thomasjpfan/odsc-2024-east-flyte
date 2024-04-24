@@ -1,10 +1,10 @@
-title: Flyte: AI In Production
+title: Flyte: A Production-Ready Open Source AI Platform
 use_katex: False
 class: title-slide
 
 ![:scale 40%](images/flyte.svg)
 
-# AI in Production
+# A Production-Ready Open Source AI Platform
 
 .larger[Thomas J. Fan]<br>
 @thomasjpfan<br>
@@ -65,7 +65,7 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 .g-6[
 # Multiple Personals
 ]
-.g-6[
+.g-6.larger[
 ## Data Scientist 🧬
 ## ML Engineer 🤖
 ## Platform Engineer 💻
@@ -95,8 +95,8 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 .g[
 .g-8[
 - Built on Kubernetes
-- Multi-tenancy
 - Control Plane / Data Plane
+- Multi-tenancy
 ]
 .g-4[
 ![](images/kubernetes.png)
@@ -115,9 +115,9 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 
 .g[
 .g-8[
-- Machine Learning 💡
-- Bioinformatics 🧬
-- LLM Workflow 🤖
+## Machine Learning 💡
+## Bioinformatics 🧬
+## LLM Workflow 🤖
 ]
 .g-4[
 ![](images/flyte.svg)
@@ -155,7 +155,7 @@ Slides on Github: github.com/thomasjpfan/odsc-east-2024-flyte</a>
 
 ---
 
-# ML Workflow
+# ML Workflow 💡
 
 ```python
 from flytekit import workflow
@@ -171,7 +171,7 @@ def main() -> float:
 
 ---
 
-# ML Workflow
+# ML Workflow 💡
 
 ## Get Dataset
 
@@ -316,6 +316,10 @@ pyflyte run --remote ml_workflow.py main
 
 ---
 
+![](images/ml-workflow-main-ui.jpg)
+
+---
+
 # Declarative Infrastructure 🏙️
 
 .g[
@@ -416,7 +420,13 @@ sql_task = SQLAlchemyTask(
 
 ---
 
-# Scaling Compute
+# Scaling Compute ⚡️
+
+![](images/ml-workflow-preprocess.jpg)
+
+---
+
+# Scaling Compute ⚡️
 
 .g.g-middle[
 .g-8[
@@ -594,6 +604,8 @@ class: chapter-slide
 
 ---
 
+class: chapter-slide
+
 # GPU Integrations 🏎️
 
 ---
@@ -733,17 +745,12 @@ def train(finetuning_args: FinetuningArguments) -> str:
 
 ---
 
-# Custom Extensions: Agents
-
-![](images/nvidia-dgx.png)
-
----
-
 # Community 🌎
 
 .g.g-middle[
 .g-7[
 ```python
+@task
 @vscode
 def train_vscode(...) -> str:
     ...
@@ -768,8 +775,9 @@ def train_vscode(...) -> str:
 
 .g.g-middle[
 .g-8[
-- Join on **Slack**: [slack.flyte.org](slack.flyte.org)
-- Join on **GitHub**: [github.com/flyteorg/flyte](github.com/flyteorg/flyte)
+- Join on **Slack**: [slack.flyte.org](https://slack.flyte.org)
+- Join on **GitHub**: [github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
+- Learn about **Flyte**: [flyte.org](https://flyte.org)
 ]
 .g-4[
 ![](images/flyte.svg)
@@ -793,13 +801,13 @@ def train_vscode(...) -> str:
 - LLM Workflow 🤖
 ]
 .g-7[
-- Join on **Slack**: [slack.flyte.org](slack.flyte.org)
-- Join on **GitHub**: [github.com/flyteorg/flyte](github.com/flyteorg/flyte)
-- Learn about **Union**: [union.ai/resources](union.ai/resources)
+- Join on **Slack**: [slack.flyte.org](https://slack.flyte.org)
+- Join on **GitHub**: [github.com/flyteorg/flyte](https://github.com/flyteorg/flyte)
+- Learn about **Flyte**: [flyte.org](https://flyte.org)
 ]
 ]
 
 <br>
 
-### Slides on Github: [github.com/thomasjpfan/odsc-east-2024-flyte](github.com/thomasjpfan/odsc-east-2024-flyte)
+### Slides on Github: [github.com/thomasjpfan/odsc-east-2024-flyte](https://github.com/thomasjpfan/odsc-east-2024-flyte)
 ### Connect with Me: [linkedin.com/in/thomasjpfan](https://www.linkedin.com/in/thomasjpfan)
